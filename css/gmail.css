@@ -1,0 +1,343 @@
+*{margin: 0;padding: 0;border:0;}
+body{
+   font-size: 11px;
+   font-family: Roboto,Helvetica,arial,sans-serif;
+   margin: 0 auto;
+}
+nav{
+	margin: 0 auto;
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	background-color: white;
+	box-shadow: 2px 2px 2px #BDBDBD;
+}
+section{
+	width: 100%;
+	min-height: 1400px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #FAFAFA;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+}
+nav div.nav_left{
+	float: left;
+	width: 60%;
+	height: 100%;
+	cursor: pointer;
+}
+nav div.nav_right{
+	float: left;
+	width: 40%;
+	height: 100%;
+	cursor: pointer;
+}
+section div.backg{
+	padding-top: 65px;
+	width: 100%;
+}
+section div.red{
+	margin-top: -3px;
+	width: 100%;
+	height: 200px;
+	background-color:#dd5347; 
+	margin-left: -1.5px;
+}
+section div.white{
+	width: 100%;
+	min-height: 600px;
+	background-color: white;
+	padding-top: 80px;
+}
+footer div.icon{
+	padding-left: 100px;
+	padding-top: 20px;
+	background-color: #FAFAFA;
+	width: 90%;
+	height: 30px;
+}
+footer div.help{
+	padding-left:100px;
+	padding-top: 5px;
+	background-color: #FAFAFA;
+	width: 90%;
+	height: 70px;
+}
+footer div.menu{
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 50px;
+}
+section div.white div.img{
+	width: 100%;
+	min-height: 200px;
+}
+nav div.nav_left div.logo{
+	padding-left: 20px;
+	padding-top: 15px;
+	float: left;
+}
+nav div.nav_left div.name{
+	float: left;
+	padding-top: 23px;
+	padding-left: 5px;
+}
+nav div.nav_right div.forjob{
+	float: left;
+	padding-top: 23px;
+	padding-left:45px;
+	width: 160px;
+	height: 65px;
+}
+nav div.nav_right div.login{
+	float: left;
+	padding-top: 23px;
+	padding-left: 70px;
+	width: 90px;
+	height: 65px;
+}
+nav div.nav_right div.start{
+	float: right;
+	padding-top: 23px;
+	padding-right: 50px;
+	background-color: #dd5347;
+    width: 100px;
+    height: 42px;
+}
+nav div.nav_left div.logo img{
+	width: 40px;
+	height: 40px;
+}
+nav div.nav_left div.name h1{
+	font-size: 25px;
+	color: #6E6E6E;
+	font-weight: 200;
+}
+nav div.nav_right a{
+	font-size: 14px;
+}
+nav div.nav_right div.forjob a{
+	color: #dd5347;
+}
+nav div.nav_right div.login a{
+	color: #424242;
+}
+nav div.nav_right div.start a{
+	padding-left: 35px;
+	color: white;
+}
+section div.red div.left{
+	float: left;
+	width: 240px;
+	height: 50px;
+	border: 1px solid white;
+	margin-top: 55px;
+	margin-left: 80px;
+	padding-top: 25px;
+	cursor: pointer;
+}
+section div.red div.right{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+section div.red div.left a{
+	padding-left: 75px;
+	font-size: 18px;
+	color: white;
+	font-weight: 100;
+	font-family: Roboto;
+}
+section div.red div.right p{
+	width: 700px;
+	padding-top: 40px;
+	padding-left: 70px;
+	font-size: 48px;
+	color: white;
+	font-weight: 100;
+	font-family: Roboto;
+}
+section div.white div.para p{
+    text-align: center;
+}
+section div.white div.para p:first-child{
+	font-size: 40px;
+	color: #424242;
+	font-weight: 100;
+	font-family: Roboto;
+}
+section div.white div.para p:last-child{
+	padding-top: 15px;
+	padding-left: 370px;
+	font-size: 18px;
+	width: 590px;
+	color: #424242;
+}
+section div.white div.img div.one{
+	float: left;
+	width: 260px;
+	height: 380px;
+	box-shadow: 2px 2px 2px 2px #BDBDBD;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+section div.white div.img div.two{
+	float: left;
+	width: 260px;
+	height: 380px;
+	box-shadow: 2px 1px 1.5px 2px #BDBDBD;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+section div.white div.img div.three{
+	float: left;
+	width: 260px;
+	height: 380px;
+	box-shadow: 2px 1.5px 1.5px 2px #BDBDBD;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+section div.white div.img div.four{
+	float: left;
+	width: 260px;
+	height: 380px;
+	box-shadow: 2px 1.5px 1.5px 2px #BDBDBD;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+section div.white div.img div.center{
+    padding-top: 20px;
+}
+section div.white div.img div.center p{
+	font-size: 20px;
+    width: 200px;
+    text-align: center;
+    padding-left: 28px;
+    color: #424242;
+}
+section div.white div.img div.down{
+	padding-top: 30px;
+}
+section div.white div.img div.down p{
+	font-size: 17px;
+	width: 230px;
+	text-align: left;
+	padding-left: 20px;
+	color: #424242;
+}
+section div.white a{
+	color: blue;
+}
+section div.white div.img div.one a{
+	cursor: auto;
+}
+section div.end{
+	background-color: #FAFAFA;
+	width: 100%;
+	height: 80px;
+	border-bottom: 2px solid white;
+}
+section div.foot{
+	width: 91%;
+	height: 2px;
+	background-color: white;
+}
+section div.foot div.datroi,div.foot div.do,div.foot div.vang,div.foot div.lacay{
+	float: right;
+	width: 35px;
+	height: 100%;
+}
+section div.foot div.datroi{
+	background-color: #2E9AFE;
+}
+section div.foot div.do{
+	background-color: red;
+}
+section div.foot div.vang{
+	background-color: yellow;
+}
+section div.foot div.lacay{
+	background-color: green;
+}
+footer div.icon div.b,div.icon div.g,div.icon div.f,div.icon div.c{
+	float: left;
+}
+footer div.icon div.g,div.icon div.f,div.icon div.c{
+	padding-left: 5px;
+}
+footer div.help div.cs,div.menu div.gg,div.menu div.introgg,div.menu div.bm,div.menu div.dk,div.menu div.lang,div.help div.g2{
+	float: left;
+}
+footer div.help div.tg,div.help div.cv{
+	float: left;
+	padding-left: 12px;
+}
+footer div.help div.g2 img{
+	padding-left: 140px;
+	margin-top: -10px;
+}
+footer div.help div.cs a,div.help div.tg a{
+	font-size: 14px;
+	color: blue;
+}
+footer div.help div.cv a{
+	font-size: 14px;
+}
+footer div.menu div.menu_right div.blue,div.menu div.menu_right div.lang{
+	float: left;
+}
+div.menu div.menu_right div.lst{
+	float: right;
+}
+footer div.menu div.menu_left{
+	float: left;
+	width: 500px;
+	height: 100%;
+	margin-left: 93px;
+	padding-top: 20px;
+}
+footer div.menu div.menu_right{
+	float: left;
+	width: 500px;
+	height: 100%;
+	margin-left: 250px;
+	padding-top: 10px;
+}
+footer div.menu div.menu_right div.blue img{
+	margin-left: 60px;
+}
+footer div.menu div.menu_right div.lang select{
+	width: 300px;
+	background-color: white;
+	border: 1px solid #A4A4A4;
+	margin-top: 5px;
+}
+footer div.menu a{
+	color: blue;
+	padding: 7px;
+
+}
+footer div.menu div.lst{
+	position: fixed;
+	bottom: 25px;
+	right: 20px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #dd5347;
+	text-align: center;
+	line-height: 60px;
+	font-size: 35px;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #BDBDBD; 
+	margin-bottom: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 374px){
+}
